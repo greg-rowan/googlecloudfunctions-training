@@ -3,7 +3,7 @@ const functions = require('firebase-functions');
 
 
 //Initialize Firebase
-admin.initializeApp(functions.config().firebase);
+admin.initializeApp();
 
 const db = admin.firestore();
 
